@@ -1,0 +1,132 @@
+html,body{
+    background: #F3F5FC;
+    font-family: 'Inter', sans-serif;
+}
+main{ 
+   width: 1440px;
+   height: 1024px;
+   
+}
+
+.logoAlura{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+.insertarTexto textarea{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    left: 240px;
+    top: 100px;
+    width: 50%;
+    height: 600px;
+    border: none;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    resize: none;
+}
+.insertarTexto textarea:focus{
+    outline: none;
+}
+.botones{
+    position: absolute;
+    bottom: 0%;
+    left:20%;
+}
+.aviso{
+    display: block;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.botones input{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    background-color: #0A3871;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    width: 328px;
+    height: 67px;
+    box-shadow: none;
+    margin: 0 10px;
+}
+#encriptar{
+    border: none;
+}
+#desencriptar{
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    background-color: #D8DFE8;
+}
+.resultado{
+    position: absolute;
+    text-align: center;
+    left: 1000px;
+    top: 40px;
+    
+}
+.imagen{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.resultado img{
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    left: 135px;
+}
+.textoResultado{
+    position: absolute;
+    left: 100px;
+    width: 400px;
+    height: 910px;
+    border-color: transparent;
+    background-color: white;
+    border-radius: 30px;
+    resize: none;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+    /*background-size: 336px 304px;
+    background: url("mono.png");
+    background-repeat:no-repeat;
+    background-position: center;*/
+}
+.textoResultado:focus{
+    outline: none;
+}
+#message{
+    width: 330px;
+    position: absolute;
+    z-index: 2;
+    top: 600px;
+    left: 135px;
+    font-size: 24px;   
+}
+#message p{
+    font-weight: bold;
+}
+#botonCopiar{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 10px;
+    width: 328px;
+    height: 67px;
+    box-shadow: none;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    background-color: transparent;
+    z-index: 2;
+    top: 835px;
+    left: 135px;
+}
+
